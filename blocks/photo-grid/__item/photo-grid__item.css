@@ -1,0 +1,4 @@
+.photo-grid__item {
+  width: calc(1fr-16px);
+  height: 213px;
+}
