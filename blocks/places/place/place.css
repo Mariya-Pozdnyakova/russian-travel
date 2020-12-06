@@ -1,0 +1,13 @@
+.place {
+  display: grid;
+  justify-items: stretch;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  /* max-width: 1184px; */
+  column-gap: 40px;
+  row-gap: 48px;
+  grid-template-columns: min-content 1fr;
+  grid-template-rows: min-content min-content;
+  align-items: start;
+  padding: 92px 148px 0;
+}
