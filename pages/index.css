@@ -5,13 +5,13 @@
 
 /* Импорт стилей шапки сайта и ее элементов */
 @import url(../blocks/header/header.css);
-@import url(../blocks/header/__lang-links/header__lang-links.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
+@import url(../blocks/header/__lang-link/header__lang-link_active.css);
 @import url(../blocks/header/__lang-switcher/header__lang-switcher.css);
 @import url(../blocks/header/__logo/header__logo.css);
 
 /* Контент сайта */
-@import url(..blocks/main/main.css);
+@import url(../blocks/main/main.css);
 
 /* lead */
 @import url(../blocks/lead/lead.css);
@@ -50,7 +50,7 @@
 
 
 /* подвал сайта */
-@import url(../blocks/footer/footer.css);
+/* @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__author/footer__author.css);
 @import url(../blocks/footer/__column-heading/footer__column-heading.css);
 @import url(../blocks/footer/__column-links/footer__links.css);
@@ -63,4 +63,4 @@
 @import url(../blocks/footer/__social-icon/footer__social-icon.css);
 
 /* Миксы и анимации */
-@import url(../blocks/rotation/rotation.css);
+

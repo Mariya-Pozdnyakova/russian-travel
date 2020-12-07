@@ -3,6 +3,26 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-left: 148px;
-  padding-right: 148px;
+  padding-top: 48px;
+  /* padding-left: 64px;
+  padding-right: 64px; */
+}
+
+@media screen and (min-width: 768px) {
+  .lead__subtitle {
+    font-size: 30px;
+
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lead__subtitle {
+    padding: 28px 48px 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .lead__subtitle {
+    margin-bottom: 64px;
+  }
 }
