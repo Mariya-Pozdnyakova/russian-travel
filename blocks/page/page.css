@@ -16,10 +16,26 @@
   flex-direction: column;
   align-items: center;
   box-sizing: border-box;
-  /* align-items: center; */
+}
+/*
+@media screen and (min-width: 768px) {
+  .photo-grid {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 16px;
+    column-gap: 16px;
+    padding-top: 88px;
+  }
 }
 
-/*Блок для проверки сетки */
- /* * {
-  border: solid 1px red;
+@media screen and (min-width: 1024px) {
+  .photo-grid {
+    padding-top: 92px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .photo-grid {
+  grid-template-columns: repeat(4, 1fr);
+  }
 } */
