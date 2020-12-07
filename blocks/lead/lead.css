@@ -4,25 +4,22 @@
   flex-direction: column;
   align-items: center;
   padding-top: 48px;
-  /* padding-left: 64px;
-  padding-right: 64px; */
+  /* padding-left: 16px;
+  padding-right: 16px; */
 }
-
+/* 
 @media screen and (min-width: 768px) {
-  .lead__subtitle {
-    font-size: 30px;
-
+  .lead {
   }
 }
 
 @media screen and (min-width: 1024px) {
-  .lead__subtitle {
-    padding: 28px 48px 0;
+  .lead {
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .lead__subtitle {
+  .lead {
     margin-bottom: 64px;
   }
-}
+} */

@@ -1,5 +1,5 @@
 .lead__caption {
-  align-self: start;
+  align-self: center;
   font-style: normal;
   font-weight: normal;
   font-size: 10px;
@@ -7,17 +7,25 @@
   letter-spacing: 0.15em;
   text-transform: uppercase;
   margin: 0;
-  margin-left: 16px;
+  min-width: 288px;
+  width: 90vw;
 }
 
 @media screen and (min-width: 768px) {
   .lead__caption {
-    margin-left: 24px;
+    min-width: 720px;
+    max-width: 928px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .lead__caption {
-  margin-left: 0;
+    min-width: 928px;
+    max-width: 984px;
   }
 }
+/*
+@media screen and (min-width: 1280px) {
+  .lead__caption {
+  }
+} */
