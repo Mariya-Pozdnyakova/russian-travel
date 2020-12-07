@@ -1,5 +1,27 @@
 .place__paragraphs {
   list-style: none;
+align-self: strech;
   margin: 0;
   padding: 0;
+  grid-row: 3;
+  width: 90%;
+}
+
+@media screen and (min-width: 768px) {
+  .place__paragraphs {
+    grid-column: 2;
+    grid-row: 2;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .place__paragraphs {
+    /* max-width: 440px; */
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .place__paragraphs {
+    /* max-width: 460px; */
+  }
 }

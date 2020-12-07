@@ -1,4 +1,6 @@
 .places {
   display: flex;
   flex-direction: column;
+  margin-top: 64px;
+  align-items: center;
 }

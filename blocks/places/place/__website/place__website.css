@@ -2,5 +2,15 @@
   align-self: end;
   display: flex;
   flex-direction: column;
+  display: none;
   /* justify-content: space-between; */
 }
+
+@media screen and (min-width: 768px) {
+  .place__website {
+    align-self: end;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
