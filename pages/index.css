@@ -1,6 +1,7 @@
 /* Импорт вендорных стилей */
 @import url(../vendor/normalize.css);
 /* Импорт общих стилей для страницы */
+@import url(../fonts/inter.css);
 @import url(../blocks/root/root.css);
 @import url(../blocks/page/page.css);
 
