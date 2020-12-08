@@ -9,7 +9,6 @@
 @media screen and (min-width: 768px) {
   .place__website {
     align-self: end;
-    display: flex;
     flex-direction: column;
   }
 }
