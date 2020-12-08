@@ -1,0 +1,22 @@
+.footer__links {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  row-gap: 32px;
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .footer__links {
+    grid-template-columns: repeat(5,min-content);
+    justify-items: start;
+    column-gap: 18px;
+  }
+}
+
+
+
+
+
+
+

@@ -1,0 +1,47 @@
+/* Подвал сайта */
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  box-sizing: border-box;
+  justify-content: space-between;
+  margin-top: 64px;
+  padding-left: 16px;
+  padding-bottom: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer {
+    margin-top: 88px;
+    flex-direction: row;
+    width: 93.75%;
+    min-width: 720px;
+    padding: 0;
+    padding-bottom: 24px;
+    align-items: flex-end;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .footer {
+    margin-top: 92px;
+    width: 90.625%;
+    min-width: 928px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .footer {
+    min-width: 1184px;
+  }
+}
+
+
+
+
+
+
+
+
+
