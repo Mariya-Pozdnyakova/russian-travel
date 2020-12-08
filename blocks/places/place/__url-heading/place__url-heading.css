@@ -6,4 +6,10 @@
   letter-spacing: 0.2em;
   color: #AAAAAA;
   margin-bottom: 12px;
+  text-decoration: none;
+}
+
+.place__url-heading:hover {
+  opacity: 0.8;
+  text-decoration: underline;
 }
