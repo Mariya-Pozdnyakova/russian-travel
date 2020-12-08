@@ -1,10 +1,32 @@
 .cover__title {
-  width: 560px;
-  height: 152px;
   font-style: normal;
   font-weight: 900;
-  font-size: 72px;
-  line-height: 1.06;
+  font-size: 32px;
+  line-height: 1.09;
   text-align: center;
   margin: 0;
+  margin-bottom: 16px;
+  width: 90vw;
+}
+
+
+@media screen and (min-width: 768px) {
+  .cover__title {
+    font-size: 72px;
+    line-height: 1.06;
+    margin-bottom: 32px;
+    max-width: 560px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cover__title {
+
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .cover__title {
+
+  }
 }

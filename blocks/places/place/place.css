@@ -1,6 +1,6 @@
 .place {
   display: grid;
-  justify-items: start;
+  justify-items: center;
   grid-template-columns: 1fr;
   grid-template-rows: auto;
   column-gap: 32px;
@@ -21,7 +21,7 @@
     grid-template-columns: min-content 1fr;
     grid-template-rows: min-content min-content;
     align-items: start;
-    padding: 88px 24px 0;
+    padding: 0 24px 0;
     grid-template-rows: 2;
   }
 }
@@ -37,7 +37,7 @@
     grid-template-columns: min-content 1fr;
     grid-template-rows: min-content min-content;
     align-items: start;
-    padding: 92px 48px 0;
+    padding: 0 48px 0;
   }
 }
 
@@ -52,7 +52,7 @@
     grid-template-columns: min-content 1fr;
     grid-template-rows: min-content min-content;
     align-items: start;
-    padding: 92px 148px 0;
+    padding: 0 148px 0;
   }
 }
 

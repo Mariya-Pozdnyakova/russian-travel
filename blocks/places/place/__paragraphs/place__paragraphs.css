@@ -1,6 +1,6 @@
 .place__paragraphs {
   list-style: none;
-align-self: strech;
+  align-self: strech;
   margin: 0;
   padding: 0;
   grid-row: 3;
