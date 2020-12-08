@@ -1,6 +1,5 @@
 .place__website {
   align-self: end;
-  display: flex;
   flex-direction: column;
   display: none;
   /* justify-content: space-between; */
@@ -10,6 +9,7 @@
   .place__website {
     align-self: end;
     flex-direction: column;
+    display: flex;
   }
 }
 
