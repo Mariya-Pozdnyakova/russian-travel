@@ -9,6 +9,7 @@
   margin-top: 64px;
   padding-left: 16px;
   padding-bottom: 24px;
+  max-width: 720px;
 }
 
 @media screen and (min-width: 768px) {
@@ -16,10 +17,10 @@
     margin-top: 88px;
     flex-direction: row;
     width: 93.75%;
-    min-width: 720px;
     padding: 0;
     padding-bottom: 24px;
     align-items: flex-end;
+    max-width: 928px;
   }
 }
 
@@ -27,17 +28,9 @@
   .footer {
     margin-top: 92px;
     width: 90.625%;
-    min-width: 928px;
+    max-width: 1184px;
   }
 }
-
-@media screen and (min-width: 1280px) {
-  .footer {
-    min-width: 1184px;
-  }
-}
-
-
 
 
 

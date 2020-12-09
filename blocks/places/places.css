@@ -13,6 +13,7 @@
   .places {
     margin-bottom: 90px;
     margin-top: 88px;
+    row-gap: 72px;
   }
 }
 
@@ -20,5 +21,6 @@
   .places {
     margin-top: 92px;
     margin-bottom: 92px;
+    row-gap: 80px;
   }
 }

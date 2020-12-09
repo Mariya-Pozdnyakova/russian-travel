@@ -19,15 +19,3 @@
     max-width: 560px;
   }
 }
-
-@media screen and (min-width: 1024px) {
-  .cover__title {
-
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .cover__title {
-
-  }
-}
