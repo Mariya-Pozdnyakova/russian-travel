@@ -5,3 +5,7 @@
   flex-direction: column;
   align-items: center;
 }
+
+.cover__link:hover {
+  opacity: 0.8;
+}
